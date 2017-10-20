@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Transformer>
+  <DisplayName>The British Library</DisplayName>
+  <Id>7e42fa2f-1cf2-49ff-97e6-40e9276547cf</Id>
+  <BuiltIn>True</BuiltIn>
+  <Version>6</Version>
+  <CitaviVersion>2.9</CitaviVersion>
+  <Author>Copyright © 2009 Swiss Academic Software. All rights reserved.</Author>
+  <Culture>en-GB</Culture>
+  <ConcentrationAreas>General</ConcentrationAreas>
+  <Provider>Library</Provider>
+  <Status>Enabled</Status>
+  <Access>Free</Access>
+  <OnlineImportSettings>
+    <ServerAddress>z3950cat.bl.uk</ServerAddress>
+    <Port>9909</Port>
+    <DatabaseName>BLAC</DatabaseName>
+    <ElementSet>F</ElementSet>
+    <DatabaseType>Z3950</DatabaseType>
+    <Username />
+    <Password />
+    <Group />
+    <Timeout>30000</Timeout>
+    <HelpContext type="fragment">
+      <MiddleTruncation>*</MiddleTruncation>
+      <LeftTruncation />
+      <RightTruncation>*</RightTruncation>
+      <MultipleTruncation>#|*</MultipleTruncation>
+      <ReplacesMultipleSymbol>*</ReplacesMultipleSymbol>
+      <ReplacesOneOrMultipleSymbol />
+      <ReplacesOneOrNoSymbol>#</ReplacesOneOrNoSymbol>
+    </HelpContext>
+    <QuerySettings>
+      <AcceptIsbnHyphenEx>true</AcceptIsbnHyphenEx>
+      <Encoding>-1</Encoding>
+      <SearchAttributes andValue="AND" orValue="OR" notValue="NOT" supportGroups="True">
+        <SearchAttribute name="AnyField" value="1016" />
+        <SearchAttribute name="Author" value="1" />
+        <SearchAttribute name="Title" value="4" />
+        <SearchAttribute name="Isbn" value="7" />
+        <SearchAttribute name="Issn" value="8" />
+        <SearchAttribute name="TitleSeries" value="5" />
+        <SearchAttribute name="DeweyClassification" value="13" />
+        <SearchAttribute name="SubjectHeading" value="21" />
+        <SearchAttribute name="LCSubjectHeading" value="27" />
+        <SearchAttribute name="Date" value="30" />
+        <SearchAttribute name="DateOfPublication" value="31" />
+        <SearchAttribute name="PlacePublication" value="59" />
+        <SearchAttribute name="Note" value="63" />
+        <SearchAttribute name="Publisher" value="1018" />
+      </SearchAttributes>
+      <Substitutions>
+        <Substitution pattern="&quot;" replaceBy="" />
+      </Substitutions>
+    </QuerySettings>
+  </OnlineImportSettings>
+  <RecordLayout>
+    <Format>Sutrs</Format>
+    <Encoding>28591</Encoding>
+    <RecordTagLayout>^.+?:\s\s\s</RecordTagLayout>
+    <RecordDelimiter />
+    <TagDelimiter />
+    <SubfieldDelimiter />
+  </RecordLayout>
+  <Mapping>
+    <ReferenceTypeMapping defaultReferenceType="Book">
+      <Field tag="Dissertation Note:   " fieldType="ReferenceType" requiredPattern=".+" referenceType="Thesis" />
+    </ReferenceTypeMapping>
+    <FieldMappingTable>
+      <FieldMapping referenceType="Book">
+        <Field tag="Title:   " startPattern="(^)" endPattern="(/|:|$)" fieldType="Title" />
+        <Field tag="Title:   " startPattern="(:)" endPattern="($)" fieldType="Subtitle" />
+        <Field tag="ME-Personal Name:   " startPattern="(^)" endPattern="(\(|,\s\s\s|$)" fieldType="AuthorsFullName" />
+        <Field tag="Added Person Name:   " startPattern="(^)" endPattern="(\(|,\s\s\s|$)" fieldType="AuthorsFullName" />
+        <Field tag="Added Corporate:   " fieldType="Organizations" />
+        <Field tag="Series-Title:   " startPattern="(^)" endPattern="(;|$)" fieldType="SeriesTitle" />
+        <Field tag="Series-Title:   " startPattern="(;)" endPattern="($)" fieldType="Volume" />
+        <Field tag="Series Statement:   " startPattern="(^)" endPattern="(;|$)" fieldType="SeriesTitle" />
+        <Field tag="Series Statement:   " startPattern="(;)" endPattern="($)" fieldType="Volume" />
+        <Field tag="ISBN:   " startPattern="(^)" endPattern="(\(|$)" fieldType="Isbn" />
+        <Field tag="ISBN:   " startPattern="(\)\s:)" endPattern="($)" fieldType="Price" />
+        <Field tag="Electronic Location:   " fieldType="OnlineAddress" />
+        <Field tag="Edition Statement:   " fieldType="Edition" />
+        <Field tag="Language Code:    " fieldType="Language" />
+        <Field tag="Subject-MeSH:   " fieldType="Keywords" />
+        <Field tag="Subject-Topical-LC:   " fieldType="Keywords" />
+        <Field tag="Index Term- Unctrl:   " fieldType="Keywords" />
+        <Field tag="Imprint:   " startPattern="(^)" endPattern="(:)" fieldType="PlaceOfPublication" />
+        <Field tag="Imprint:   " startPattern="(:)" endPattern="(,)" fieldType="Publishers" />
+        <Field tag="Imprint:   " startPattern="(,\s\s)" endPattern="($)" fieldType="Year" />
+        <Field tag="Publication:   " startPattern="(^)" endPattern="(:)" fieldType="PlaceOfPublication" />
+        <Field tag="Publication:   " startPattern="(:)" endPattern="(,)" fieldType="Publishers" />
+        <Field tag="Publication:   " startPattern="(,\s\s)" endPattern="($)" fieldType="Year" />
+        <Field tag="Holding Info:   " startPattern="(^)" endPattern="(\s\s)" fieldType="LocationLibrary" />
+        <Field tag="Holding Info:   " startPattern="(\s\s)" endPattern="($)" fieldType="LocationCallNumber" />
+      </FieldMapping>
+      <FieldMapping referenceType="Thesis">
+        <Field tag="Title:   " startPattern="(^)" endPattern="(/|:|$)" fieldType="Title" />
+        <Field tag="Title:   " startPattern="(:)" endPattern="($)" fieldType="Subtitle" />
+        <Field tag="ME-Personal Name:   " startPattern="(^)" endPattern="(\(|,\s\s\s|$)" fieldType="AuthorsFullName" />
+        <Field tag="Added Person Name:   " startPattern="(^)" endPattern="(\(|,\s\s\s|$)" fieldType="AuthorsFullName" />
+        <Field tag="Series-Title:   " startPattern="(^)" endPattern="(;|$)" fieldType="SeriesTitle" />
+        <Field tag="Series-Title:   " startPattern="(;)" endPattern="($)" fieldType="Volume" />
+        <Field tag="Series Statement:   " startPattern="(^)" endPattern="(;|$)" fieldType="SeriesTitle" />
+        <Field tag="Series Statement:   " startPattern="(;)" endPattern="($)" fieldType="Volume" />
+        <Field tag="ISBN:   " startPattern="(^)" endPattern="(\(|$)" fieldType="Isbn" />
+        <Field tag="ISBN:   " startPattern="(\)\s:)" endPattern="($)" fieldType="Price" />
+        <Field tag="Electronic Location:   " fieldType="OnlineAddress" />
+        <Field tag="Edition Statement:   " fieldType="Edition" />
+        <Field tag="Language Code:    " fieldType="Language" />
+        <Field tag="Dissertation Note:    " startPattern="(^)" endPattern="(--)" fieldType="TitleSupplement" />
+        <Field tag="Dissertation Note:    " startPattern="(--)" endPattern="(,)" fieldType="Organizations" />
+        <Field tag="Dissertation Note:    " startPattern="(,)" endPattern="($)" fieldType="Date" />
+        <Field tag="Subject-MeSH:   " fieldType="Keywords" />
+        <Field tag="Subject-Topical-LC:   " fieldType="Keywords" />
+        <Field tag="Index Term- Unctrl:   " fieldType="Keywords" />
+        <Field tag="Holding Info:   " startPattern="(^)" endPattern="(\s\s)" fieldType="LocationLibrary" />
+        <Field tag="Holding Info:   " startPattern="(\s\s)" endPattern="($)" fieldType="LocationCallNumber" />
+        <Field tag="Publication:   " startPattern="(^)" endPattern="(:)" fieldType="PlaceOfPublication" />
+        <Field tag="Imprint:   " startPattern="(^)" endPattern="(:)" fieldType="PlaceOfPublication" />
+      </FieldMapping>
+    </FieldMappingTable>
+  </Mapping>
+  <FieldEditing>
+    <Substitutions>
+      <Field type="PeriodicalName">
+        <Substitution pattern=";" replaceBy="" />
+        <Substitution pattern="in:" replaceBy="" />
+      </Field>
+      <Field type="Year">
+        <Substitution pattern="\." replaceBy="" />
+        <Substitution pattern="c" replaceBy="" />
+      </Field>
+      <Field type="Publishers">
+        <Substitution pattern="," replaceBy="" />
+      </Field>
+      <Field type="LocationCallNumber">
+        <Substitution pattern="\s+" replaceBy=" " />
+      </Field>
+      <Field type="PlaceOfPublication">
+        <Substitution pattern=":" replaceBy="" />
+        <Substitution pattern="\[u\.a\.\]" replaceBy="" />
+        <Substitution pattern="\[" replaceBy="" />
+        <Substitution pattern="\]" replaceBy="" />
+      </Field>
+      <Field type="PageRange">
+        <Substitution pattern=":" replaceBy="" />
+      </Field>
+      <Field type="Edition">
+        <Substitution pattern=";" replaceBy="" />
+      </Field>
+      <Field type="Price">
+        <Substitution pattern="¹" replaceBy="£" />
+      </Field>
+      <Field type="OnlineAddress">
+        <Substitution pattern="^.+?http" replaceBy="http" />
+      </Field>
+      <Field type="Title">
+        <Substitution pattern="\s+" replaceBy=" " />
+      </Field>
+      <Field type="TitleSupplement">
+        <Substitution pattern="\s+" replaceBy=" " />
+      </Field>
+      <Field type="Organizations">
+        <Substitution pattern="\s+" replaceBy=" " />
+      </Field>
+      <Field type="AuthorsFullName">
+        <Substitution pattern="\.$" replaceBy="" />
+        <Substitution pattern="\d" replaceBy="" />
+        <Substitution pattern="\(.+" replaceBy="" />
+      </Field>
+    </Substitutions>
+    <KeywordSplitter>
+    </KeywordSplitter>
+    <PersonTextParserSettings>
+      <Author splitter=";" sequence="LastnameFirstnameWithComma" />
+      <Collaborator splitter=";" sequence="LastnameFirstnameWithComma" />
+      <Editor splitter=";" sequence="LastnameFirstnameWithComma" />
+    </PersonTextParserSettings>
+  </FieldEditing>
+</Transformer>
