@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Transformer>
+  <DisplayName>DataCite</DisplayName>
+  <Id>1fd49cba-d8e0-4d71-b031-fd54d0777c2e</Id>
+  <BuiltIn>True</BuiltIn>
+  <Version>5</Version>
+  <CitaviVersion>4.0</CitaviVersion>
+  <Author>Copyright © 2015 Swiss Academic Software. All rights reserved.</Author>
+  <Culture>en-US</Culture>
+  <ConcentrationAreas>General</ConcentrationAreas>
+  <Provider>Unknown</Provider>
+  <Status>Internal</Status>
+  <Access>Free</Access>
+  <OnlineImportSettings>
+    <ServerAddress>https://www.datacite.org</ServerAddress>
+    <Port>80</Port>
+    <DatabaseName />
+    <ElementSet>F</ElementSet>
+    <DatabaseType>Unknown</DatabaseType>
+    <Username />
+    <Password />
+    <Group />
+    <Timeout>30000</Timeout>
+    <Flags>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</Flags>
+    <HelpContext type="fragment">
+      <MiddleTruncation />
+      <LeftTruncation />
+      <RightTruncation>*</RightTruncation>
+      <MultipleTruncation />
+      <ReplacesMultipleSymbol>*</ReplacesMultipleSymbol>
+      <ReplacesOneOrMultipleSymbol />
+      <ReplacesOneOrNoSymbol />
+    </HelpContext>
+    <QuerySettings>
+      <AcceptIsbnHyphenEx>true</AcceptIsbnHyphenEx>
+      <Encoding>-1</Encoding>
+      <SearchAttributes andValue="AND" orValue="OR" notValue="NOT">
+        <SearchAttribute name="AnyField" value="" />
+        <SearchAttribute name="Author" value="" />
+        <SearchAttribute name="Title" value="" />
+        <SearchAttribute name="Doi" value="" />
+      </SearchAttributes>
+      <Substitutions>
+        <Substitution pattern="&quot;" replaceBy="" />
+      </Substitutions>
+    </QuerySettings>
+  </OnlineImportSettings>
+  <RecordLayout>
+    <Format>Usmarc</Format>
+    <Encoding>65001</Encoding>
+    <RecordTagLayout>^..\s{1,2}-\s</RecordTagLayout>
+    <RecordDelimiter />
+    <TagDelimiter />
+    <SubfieldDelimiter />
+  </RecordLayout>
+  <Mapping>
+    <ReferenceTypeMapping defaultReferenceType="UnpublishedWork">
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Audiovisual" referenceType="AudioOrVideoDocument" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Collection" referenceType="UnpublishedWork" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Dataset" referenceType="UnpublishedWork" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Event" referenceType="UnpublishedWork" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Film" referenceType="AudioOrVideoDocument" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Image" referenceType="UnpublishedWork" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="InteractiveResource" referenceType="Unknown" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Model" referenceType="UnpublishedWork" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Other" referenceType="UnpublishedWork" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Other:Study" referenceType="UnpublishedWork" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="PhysicalObject" referenceType="UnpublishedWork" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Service" referenceType="UnpublishedWork" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Software" referenceType="ComputerProgram" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Sound" referenceType="AudioOrVideoDocument" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Workflow" referenceType="Unknown" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Text" referenceType="UnpublishedWork" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Text:Book" referenceType="Book" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Text:Thesis" referenceType="Thesis" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Text:JournalArticle" referenceType="JournalArticle" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Text:Article" referenceType="JournalArticle" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Text:ConferencePaper" referenceType="ConferenceProceedings" />
+      <Field tag="TY  - " fieldType="ReferenceType" requiredPattern="Text:Report" referenceType="UnpublishedWork" />
+    </ReferenceTypeMapping>
+    <FieldMappingTable>
+      <FieldMapping referenceType="UnpublishedWork">
+        <Field tag="SN  - " fieldType="Isbn" />
+        <Field tag="AU  - " fieldType="AuthorsFullName" />
+        <Field tag="ED  - " fieldType="EditorsFullName" />
+        <Field tag="CO  - " fieldType="CollaboratorsFullName" />
+        <Field tag="OZ  - " fieldType="Organizations" />
+        <Field tag="TI  - " fieldType="Title" />
+        <Field tag="PY  - " fieldType="Year" />
+        <Field tag="CY  - " fieldType="PlaceOfPublication" />
+        <Field tag="PB  - " fieldType="Publishers" />
+        <Field tag="KW  - " fieldType="Keywords" />
+        <Field tag="AB  - " fieldType="Abstract" />
+        <Field tag="LG  - " fieldType="Language" />
+        <Field tag="DO  - " fieldType="Doi" />
+        <Field tag="LO  - " fieldType="LocationElectronic" />
+      </FieldMapping>
+      <FieldMapping referenceType="Unknown">
+        <Field tag="SN  - " fieldType="Isbn" />
+        <Field tag="AU  - " fieldType="AuthorsFullName" />
+        <Field tag="ED  - " fieldType="EditorsFullName" />
+        <Field tag="CO  - " fieldType="CollaboratorsFullName" />
+        <Field tag="OZ  - " fieldType="Organizations" />
+        <Field tag="TI  - " fieldType="Title" />
+        <Field tag="PY  - " fieldType="Year" />
+        <Field tag="CY  - " fieldType="PlaceOfPublication" />
+        <Field tag="PB  - " fieldType="Publishers" />
+        <Field tag="KW  - " fieldType="Keywords" />
+        <Field tag="AB  - " fieldType="Abstract" />
+        <Field tag="LG  - " fieldType="Language" />
+        <Field tag="DO  - " fieldType="Doi" />
+        <Field tag="LO  - " fieldType="LocationElectronic" />
+      </FieldMapping>
+      <FieldMapping referenceType="JournalArticle">
+        <Field tag="AU  - " fieldType="AuthorsFullName" />
+        <Field tag="CO  - " fieldType="CollaboratorsFullName" />
+        <Field tag="OZ  - " fieldType="Organizations" />
+        <Field tag="TI  - " fieldType="Title" />
+        <Field tag="PY  - " fieldType="Year" />
+        <Field tag="KW  - " fieldType="Keywords" />
+        <Field tag="AB  - " fieldType="Abstract" />
+        <Field tag="LG  - " fieldType="Language" />
+        <Field tag="SI  - " fieldType="TitleSupplement" />
+        <Field tag="DO  - " fieldType="Doi" />
+        <Field tag="LO  - " fieldType="LocationElectronic" />
+      </FieldMapping>
+      <FieldMapping referenceType="Book">
+        <Field tag="SN  - " fieldType="Isbn" />
+        <Field tag="AU  - " fieldType="AuthorsFullName" />
+        <Field tag="ED  - " fieldType="EditorsFullName" />
+        <Field tag="CO  - " fieldType="CollaboratorsFullName" />
+        <Field tag="OZ  - " fieldType="Organizations" />
+        <Field tag="TI  - " fieldType="Title" />
+        <Field tag="PY  - " fieldType="Year" />
+        <Field tag="CY  - " fieldType="PlaceOfPublication" />
+        <Field tag="PB  - " fieldType="Publishers" />
+        <Field tag="KW  - " fieldType="Keywords" />
+        <Field tag="AB  - " fieldType="Abstract" />
+        <Field tag="LG  - " fieldType="Language" />
+        <Field tag="DO  - " fieldType="Doi" />
+        <Field tag="LO  - " fieldType="LocationElectronic" />
+      </FieldMapping>
+      <FieldMapping referenceType="ComputerProgram">
+        <Field tag="SN  - " fieldType="Isbn" />
+        <Field tag="AU  - " fieldType="AuthorsFullName" />
+        <Field tag="ED  - " fieldType="EditorsFullName" />
+        <Field tag="CO  - " fieldType="CollaboratorsFullName" />
+        <Field tag="OZ  - " fieldType="Organizations" />
+        <Field tag="TI  - " fieldType="Title" />
+        <Field tag="PY  - " fieldType="Year" />
+        <Field tag="PB  - " fieldType="Publishers" />
+        <Field tag="KW  - " fieldType="Keywords" />
+        <Field tag="AB  - " fieldType="Abstract" />
+        <Field tag="LG  - " fieldType="Language" />
+        <Field tag="DO  - " fieldType="Doi" />
+        <Field tag="LO  - " fieldType="LocationElectronic" />
+      </FieldMapping>
+      <FieldMapping referenceType="ConferenceProceedings">
+        <Field tag="SN  - " fieldType="Isbn" />
+        <Field tag="AU  - " fieldType="EditorsFullName" />
+        <Field tag="CO  - " fieldType="CollaboratorsFullName" />
+        <Field tag="ED  - " fieldType="EditorsFullName" />
+        <Field tag="OZ  - " fieldType="Organizations" />
+        <Field tag="TI  - " fieldType="Title" />
+        <Field tag="PY  - " fieldType="Year" />
+        <Field tag="CY  - " fieldType="PlaceOfPublication" />
+        <Field tag="PB  - " fieldType="TitleSupplement" />
+        <Field tag="KW  - " fieldType="Keywords" />
+        <Field tag="AB  - " fieldType="Abstract" />
+        <Field tag="LG  - " fieldType="Language" />
+        <Field tag="DA  - " fieldType="Date" />
+        <Field tag="SI  - " fieldType="SpecificField7" />
+        <Field tag="DO  - " fieldType="Doi" />
+        <Field tag="LO  - " fieldType="LocationElectronic" />
+      </FieldMapping>
+      <FieldMapping referenceType="Thesis">
+        <Field tag="SN  - " fieldType="Isbn" />
+        <Field tag="AU  - " fieldType="AuthorsFullName" />
+        <Field tag="CO  - " fieldType="CollaboratorsFullName" />
+        <Field tag="OZ  - " fieldType="Organizations" />
+        <Field tag="TI  - " fieldType="Title" />
+        <Field tag="PY  - " fieldType="Year" />
+        <Field tag="CY  - " fieldType="PlaceOfPublication" />
+        <Field tag="PB  - " fieldType="TitleSupplement" />
+        <Field tag="KW  - " fieldType="Keywords" />
+        <Field tag="AB  - " fieldType="Abstract" />
+        <Field tag="LG  - " fieldType="Language" />
+        <Field tag="DO  - " fieldType="Doi" />
+        <Field tag="LO  - " fieldType="LocationElectronic" />
+      </FieldMapping>
+      <FieldMapping referenceType="AudioOrVideoDocument">
+        <Field tag="SN  - " fieldType="Isbn" />
+        <Field tag="AU  - " fieldType="AuthorsFullName" />
+        <Field tag="CO  - " fieldType="CollaboratorsFullName" />
+        <Field tag="OZ  - " fieldType="Organizations" />
+        <Field tag="TI  - " fieldType="Title" />
+        <Field tag="PY  - " fieldType="Year" />
+        <Field tag="CY  - " fieldType="PlaceOfPublication" />
+        <Field tag="PB  - " fieldType="Publishers" />
+        <Field tag="KW  - " fieldType="Keywords" />
+        <Field tag="AB  - " fieldType="Abstract" />
+        <Field tag="LG  - " fieldType="Language" />
+        <Field tag="DO  - " fieldType="Doi" />
+        <Field tag="LO  - " fieldType="LocationElectronic" />
+      </FieldMapping>
+    </FieldMappingTable>
+  </Mapping>
+  <FieldEditing>
+    <Substitutions />
+    <KeywordSplitter>;|,|/</KeywordSplitter>
+    <PersonTextParserSettings>
+      <Author splitter=";" sequence="None" />
+      <Collaborator splitter=";" sequence="None" />
+      <Editor splitter=";" sequence="None" />
+    </PersonTextParserSettings>
+  </FieldEditing>
+</Transformer>
